@@ -1312,12 +1312,13 @@ i.home-product-item__like-icon-fill{
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     background-color: var(--page-color);
-}
-
-.chat-box__area{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.chat-box__area{
+    
 }
 
 .chat-box__area-icon{
@@ -1328,7 +1329,6 @@ i.home-product-item__like-icon-fill{
     font-size: 2rem;
     text-decoration: none;
     color: var(--white-color);
-    line-height: 48px;
 }
 
 .chat-box__counting{
