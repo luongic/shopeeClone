@@ -1300,3 +1300,49 @@ i.home-product-item__like-icon-fill{
     object-fit: contain;
     margin: 0 16px;
 }
+
+
+
+.chat-box{
+    position: fixed;
+    bottom: 0;
+    right: 8px;
+    width: 100px;
+    height: 48px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: var(--page-color);
+}
+
+.chat-box__area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-box__area-icon{
+
+}
+
+.chat-box__area-text{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white-color);
+    line-height: 48px;
+}
+
+.chat-box__counting{
+    position: absolute;
+    top: -10px;
+    right: -4px;
+    background-color: var(--page-color);
+    border: 1px solid var(--white-color);
+    border-radius: 10px;
+}
+
+.chat-box__count-num{
+    padding: 5px;
+    color: var(--white-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
